@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 디자인 연습</title>
+    <style>
+        /* 기본 스타일 */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .box {
+            width: 30%;
+            height: 200px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+    
+        }
+      
+        /* 화면 너비가 768px 이하일 때, 박스들이 2열로 배치되도록 설정 */
+        @media (max-width: 768px) {
+            .box {
+                width: 48%; /* 2개의 열로 레이아웃 변경 */
+                height: 150px; /* 높이도 조정 */
+            }
+        }
+
+        /* 화면 너비가 480px 이하일 때, 박스들이 한 열로 배치되도록 설정 */
+        @media (max-width: 480px) {
+            .box {
+                width: 100%; /* 한 열로 레이아웃 변경 */
+                height: 100px; /* 높이도 조정 */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">박스 1</div>
+        <div class="box">박스 2</div>
+        <div class="box">박스 3</div>
+        <div class="box">박스 4</div>
+    </div>
+
+</body>
+</html>

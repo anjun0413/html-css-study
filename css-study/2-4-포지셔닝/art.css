@@ -1,0 +1,113 @@
+@import url('../common.css');
+
+
+body {
+    background: #666;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    font-family: '굴림', serif;
+  }
+  #wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #wrapper header h1 {
+    font-size: 4.7rem;
+    background: #3a980e;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-family: '휴먼모음T', cursive;
+  }
+  #wrapper header span {
+    display: block;
+    font-size: 0.9rem;
+  }
+  #wrapper header h2 {
+    background: #c1bdbd;
+    text-align: center;
+  }
+   .container {
+    display: flex;
+  }
+  .container .side-menu{
+    width: 25%;
+    background: #fff;
+  }
+  .container .main-content{
+    width: 50%;
+    background: #c1bdbd;
+  }
+  .container .banner {
+    width: 25%;
+    background: #fff;
+  }
+  .container .side-menu h3 {
+    background: rgb(134, 3, 3);
+    color: #fff;
+    padding: 5px;
+  }
+  .container .side-menu li{
+    text-decoration: underline;
+   font-family: sans-serif;
+   padding: 5px;
+  }
+ .container .side-menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+  }
+  .container .main-content .art-piece .title{
+    background: rgb(3, 3, 101);
+    display: block;
+    color: #fff;
+    margin: 10px;
+  }
+  .container .main-content .art-piece .artist{
+    margin: 0 10px;
+  }
+  .container .main-content .art-piece .detail{
+    font-size: 10px;
+    margin: 5px 10px;
+  }
+  .container .banner  {
+    font-size: 1.05rem;
+    padding: 10px;
+    font-weight: 700;
+  }
+  .container .banner .all{
+    text-decoration: underline;
+    color: gray;
+
+}
+  .container .banner .love {
+    text-decoration: underline;
+    display: block;
+    color: rgb(191, 191, 10);
+  
+  }
+  #wrapper .container .banner strong {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .container .link li{
+    font-size: 0.8rem;
+  }
+  .container .link li a{
+    text-decoration: underline;
+  }
+  .container .link li span {
+    display: block;
+    
+  }
+  #wrapper footer {
+    background: rgb(3, 3, 101);
+    color: #fff;
+    text-align: center;
+  }
+  #wrapper footer a{
+    text-decoration: underline;
+  }
+
+

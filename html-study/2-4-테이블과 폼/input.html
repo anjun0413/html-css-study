@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form accept="#">
+      <input type="text" placeholder="이름을 입력하세요" disabled />
+      <br />
+      <input type="password" />
+      <br />
+      <input type="email" value="abc" />
+      <br />
+
+      취미:
+      <label> <input type="checkbox" name="hobby" /> 운동 </label>
+      <label> <input type="checkbox" name="hobby" /> 명상 </label>
+      <label> <input type="checkbox" name="hobby" /> 숨쉬기 </label>
+      <br />
+
+      약관 동의:
+      <label> <input type="radio" name="agree" /> 예 </label>
+      <label><input type="radio" name="agree" /> 아니오</label>
+      <br />
+      <input type="number" value="0" max="5" min="0" />
+      <br />
+
+      <input type="range" value="3" max="9999" min="1" />
+      <br />
+
+      <input type="file" multiple accept="image/*" />
+      <br />
+      <select>
+        <option>아메리카노</option>
+        <option>카페라뗴</option>
+        <option>콜드블루</option>
+      </select>
+
+      <br />
+      <textarea rows="5" cols="10"></textarea>
+      <br />
+      <button type="button">버튼</button>
+      <!-- type을 생략하면 subimt이 기본 -->
+      <button type="submit">전송</button>
+      <button type="reset">초기화</button>
+
+      <input type="button" value="버튼2" />
+    </form>
+  </body>
+</html>

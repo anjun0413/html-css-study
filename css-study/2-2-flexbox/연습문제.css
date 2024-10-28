@@ -1,0 +1,72 @@
+@import url('../common.css');
+
+.container {
+  width: 800px;
+  /* height: 400px; */
+  margin: 30px auto;
+  border: 5px solid black;
+}
+.container .main-title {
+  background: gray;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+
+}
+.container .sub-title {
+    font-size: 1.2rem;
+    padding: 8px;
+    font-weight: 700;
+    text-align: center;
+    background: black;
+    color: white
+}
+span{
+  color: yellow;
+}
+.container .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+
+}
+
+.container .bottom .green-tea {
+  background: #dda;
+  
+}
+.container .bottom .coffee {
+  background: blue;
+
+}
+.container .bottom .condy {
+    background: #ba7;
+    
+}
+.container .bottom .cocoa {
+    
+    background: yellow;}
+
+li {
+padding: 5px;
+border: 1px solid white;
+  width: 24%;
+}
+div {
+    width: 100%;
+}
+img {
+  border: 1px solid white;
+  width: 100%;
+  height: 150px;
+}
+p{
+  padding: 5px;
+}
+ul {
+  width: 100%;  
+  
+background: lightslategray;
+}

@@ -1,0 +1,215 @@
+@import url("/common.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+body {
+  background: black;
+}
+
+header {
+ 
+   width: 100%;
+  height: 100px;
+  line-height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  /* border: 4px solid blue; */
+}
+header .c-main {
+
+  width: 100%;
+  margin: 0 auto;
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header .c-main .logo {
+   border: 3px solid #dbc4c4; 
+  float: left;
+  margin-left: 50px;
+  /* width: 100px;  */
+}
+/* header .c-main .logo img {
+  width: 100%;
+} */
+
+header .c-main .gnb {
+  color:  #d3cfcf;
+   /* border: 3px solid red;  */
+  float: left;
+  margin-left: 10px;
+}
+header .c-main .gnb li {
+   /* border: 3px dashed yellow;  */
+   color:  #d3cfcf;
+  float: left;
+  margin-left: 40px;
+}
+
+header .c-main .gnb li a {
+  display: block;
+  color: #d3cfcf;
+  font-size: 20px;
+}
+
+header .c-main .gnb li a:hover {
+  color: #fff;
+font-weight: 900;
+}
+
+header .c-main .tnb {
+ 
+  float: right;
+  margin-left: 10px;
+  color: #d3cfcf;
+  font-size: 20px;
+}
+header .c-main .tnb li {
+  color: #d3cfcf;
+  float: left;
+  margin-right: 40px;
+}
+header .c-main .tnb li a {
+  color: #d3cfcf;
+ 
+font-size: 20px;
+}
+
+ header .c-main .tnb li a:hover {
+ font-weight: 900;
+  color: #fff;
+} 
+
+
+/* 
+header .c-main .gnb-mobile {
+  display: none;
+} */
+
+/* section.main style */
+section.s-main {
+  border: 3px solid green;
+  position: fixed;
+ height: 100vh;
+ top: 100px;
+  width: 10%;
+  z-index: 9999;
+  margin: 50px;
+ 
+
+}
+
+section.s-main .s-title {
+
+  width: 50%;
+  color: #d3cfcf;
+  font-size: 20px;
+  margin: 20px 0;
+  display: block;
+
+}section.s-main .s-title ul li {
+  color:#d3cfcf;
+  
+}
+
+section.s-main .s-title ul li a {
+  color:#d3cfcf;
+}
+section .s-title ul li a:hover {
+ font-weight: 900;
+  color: #fff;
+} 
+section.s-main .s-title ul li a .suv-cs {
+ 
+  text-decoration-line: underline; 
+}
+
+section.carimg {
+ 
+ 
+  margin: 100px 300px;
+  border: 5px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 100px;
+  width: 80%;
+ 
+}
+section.carimg .name {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+section.carimg .name .car-img-box {
+  width: 30%;
+}
+section.carimg .name .img-box {
+  width: 100%;
+  height: 150px;
+  object-fit: scale-down;
+  
+}
+
+ section.carimg .name .img-box .img-size {
+  
+  width: 100%;
+ 
+ 
+} 
+section.carimg p {
+  font-size: 20px;
+  color: #fff;
+}
+section.carimg .name .text .bottom {
+  border: 3px solid #fff;
+  width: 350px;
+  height: 50px;
+  padding-top: 15px;
+ text-align: center;
+}
+section.carimg .name .text p .bottom::before {
+
+  content: '';
+  width: 0;
+  height: 100%;
+  background: rgba(255, 131, 66, 0.75);
+  position: absolute;
+  z-index: 10;
+  transition: 0.5s;
+}
+/* section.carimg .name p .more::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background: rgba(255, 131, 66, 0.75);
+  position: absolute;
+  z-index: 10;
+  transition: 0.5s;
+}
+section.carimg .name p::before {
+  width: 100%;
+}
+
+section.carimg .name p::before {
+
+  font-size: 15px;
+  font-family: 'Exo 2', sans-serif;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  color: #fff;
+  padding: 5px 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 500;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.7s;
+}
+section.carimg .name p::before {
+  opacity: 1;
+} */
